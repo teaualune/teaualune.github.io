@@ -1,0 +1,142 @@
+html {
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: lighter;
+    color: #fffffb;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fcfaf2;
+    font-weight: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h3, h4, h5, h6 {
+    font-weight: lighter;
+    font-size: 120%;
+}
+
+header {
+    margin: 3em 0;
+}
+
+.menu {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background-color: rgba(252, 250, 242, 0.8);
+}
+
+.menu ul {
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.menu li {
+    width: 20%;
+    display: inline-block;
+}
+
+.menu a {
+    color: #1c1c1c;
+    padding: 1em 0;
+    display: block;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content p {
+    margin: 2em 0;
+    line-height: 3em;
+}
+
+.content li {
+    line-height: 2em;
+}
+
+.content li a {
+    margin: 2em 0;
+}
+
+.content section {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 2em 10%;
+    width: 100%;
+    min-height: inherit;
+}
+
+.content li span {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    font-size: 80%;
+    border-radius: 5px;
+}
+
+.web { background-color: #1e88a8; }
+.java { background-color: #0f2540; }
+.ntu { background-color: #c1328e; }
+.ror { background-color: #d0104c; }
+.app { background-color: #82663a; }
+.y-internal { background-color: #66327c; }
+.hackday { background-color: #58b2dc; }
+.nodejs { background-color: #78c2c4; }
+.startup { background-color: #fad689; }
+
+#about {
+    background-color: #8f77b5;
+}
+
+#about span {
+    font-size: 150%;
+    padding: 0 10px;
+}
+
+#education {
+    background-color: #b68e55;
+}
+
+#experience {
+    background-color: #838a2d;
+}
+
+#work {
+    background-color: #eb7a77;
+}
+
+#contact {
+    background-color: #7db9de;
+}
+
+@media (max-width: 640px) {
+
+    .menu ul {
+        width: 100%;
+    }
+
+    .menu li {
+        width: 33%;
+    }
+
+    .menu a {
+        padding: 9px 0;
+    }
+
+    .content section {
+        padding: 2em 8px;
+        overflow-x: hidden;
+    }
+}
