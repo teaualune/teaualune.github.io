@@ -19,6 +19,10 @@ ul {
     padding: 0;
 }
 
+h3, h4 {
+    margin: 1em 0;
+}
+
 h3 {
     font-weight: normal;
     font-size: 150%;
@@ -123,9 +127,14 @@ header {
     background-color: #66bab7;
 }
 
-#skills h4 {
-    display: inline-block;
-    margin-right: 1em;
+#skills li {
+    margin: 1em 0;
+    font-size: 120%;
+    font-weight: normal;
+}
+
+#skills span {
+    font-size: 60%;
 }
 
 #work {
