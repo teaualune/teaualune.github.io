@@ -10,8 +10,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #fcfaf2;
+    color: #fedfe1;
     font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
