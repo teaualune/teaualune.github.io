@@ -10,8 +10,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #fedfe1;
+    color: #fcfaf2;
     font-weight: normal;
+    font-family: 'helvetica';
 }
 
 a:hover {
@@ -112,11 +113,6 @@ header {
 
 #about {
     background-color: #8f77b5;
-}
-
-#about span {
-    font-size: 150%;
-    padding: 0 10px;
 }
 
 #education {
