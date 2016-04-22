@@ -16,11 +16,16 @@ a {
     text-decoration: none;
     color: #fcfaf2;
     font-weight: normal;
-    font-family: 'helvetica';
+    font-family: helvetica;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+p {
+    margin: .5em 0;
+    line-height: 2;
 }
 
 ul {
@@ -28,16 +33,14 @@ ul {
     padding: 0;
 }
 
-h3, h4 {
-    margin: 1em 0;
-}
-
 h3 {
+    margin: 1em 0;
     font-weight: normal;
     font-size: 150%;
 }
 
 h4 {
+    margin: .5em 0;
     font-weight: lighter;
     font-size: 120%;
 }
@@ -55,19 +58,20 @@ header {
 }
 
 .menu ul {
-    width: 80%;
     list-style: none;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .menu li {
-    width: 16.5%;
     display: inline-block;
 }
 
 .menu a {
     color: #1c1c1c;
-    padding: 1em 0;
+    padding: 1em;
     display: block;
 }
 
@@ -75,13 +79,8 @@ header {
     height: 100%;
 }
 
-.content p {
-    margin: 2em 0;
-    line-height: 3em;
-}
-
 .content li {
-    line-height: 2em;
+    line-height: 2;
 }
 
 .content li a {
@@ -92,9 +91,10 @@ header {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 2em 10%;
+    padding: 2em 8px;
     width: 100%;
     min-height: 100%;
+    overflow-x: hidden;
 }
 
 .content li span {
@@ -116,21 +116,18 @@ header {
 .game { background-color: #592c63; }
 .android { background-color: #516e41; }
 
-#about {
-    background-color: #8f77b5;
+#about { background-color: #8f77b5; }
+
+#about p {
+    margin: 2em 0;
+    line-height: 3;
 }
 
-#education {
-    background-color: #b68e55;
-}
+#education { background-color: #b68e55; }
 
-#experience {
-    background-color: #838a2d;
-}
+#experience { background-color: #838a2d; }
 
-#skills {
-    background-color: #66bab7;
-}
+#skills { background-color: #66bab7; }
 
 #skills li {
     margin: 1em 0;
@@ -142,30 +139,19 @@ header {
     font-size: 60%;
 }
 
-#work {
-    background-color: #689881;
-}
+#works { background-color: #689881; }
 
-#contact {
-    background-color: #7db9de;
-}
+#talks { background-color: #91989f; }
 
-@media (max-width: 640px) {
+#contact { background-color: #7db9de; }
+
+@media (min-width: 641px) {
 
     .menu ul {
-        width: 100%;
-    }
-
-    .menu li {
-        width: 33%;
-    }
-
-    .menu a {
-        padding: 9px 0;
+        width: 90%;
     }
 
     .content section {
-        padding: 2em 8px;
-        overflow-x: hidden;
+        padding: 2em 10%;
     }
 }
