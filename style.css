@@ -82,6 +82,7 @@ header {
     color: #fffffb;
     font-size: 14px;
     line-height: 1.4;
+    padding-right: 1em;
 }
 
 .menu {
@@ -155,6 +156,10 @@ header {
 .angular { background-color: #f9bf45; }
 
 #about { background-color: #8f77b5; }
+
+#about header {
+    margin-top: 6em;
+}
 
 #about p {
     margin: 2em 0;
