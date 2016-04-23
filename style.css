@@ -99,7 +99,7 @@ header {
 
 .content li span {
     margin: 5px 10px;
-    padding: 5px 10px;
+    padding: .4em .8em;
     font-size: 80%;
     border-radius: 5px;
 }
@@ -109,12 +109,15 @@ header {
 .ntu { background-color: #c1328e; }
 .ror { background-color: #d0104c; }
 .ios { background-color: #81c7d4; }
-.y-internal { background-color: #66327c; }
+.yahoo { background-color: #66327c; }
 .hackday { background-color: #58b2dc; }
 .nodejs { background-color: #78c2c4; }
 .startup { background-color: #fad689; }
 .game { background-color: #592c63; }
 .android { background-color: #516e41; }
+.private { background-color: #a96360; }
+.react { background-color: #3a8fb7; }
+.angular { background-color: #f9bf45; }
 
 #about { background-color: #8f77b5; }
 
