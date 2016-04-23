@@ -10,6 +10,7 @@ body {
     margin: 0;
     height: 100%;
     background-color: #0f2540;
+    font-size: 14px;
 }
 
 a {
@@ -47,6 +48,40 @@ h4 {
 
 header {
     margin: 3em 0;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #fffffb;
+}
+
+.select::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "\25BE";
+    line-height: 1.4;
+}
+
+.select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    -webkit-border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0;
+    -moz-background-clip: padding;
+    border-radius: 0;
+    background-clip: padding-box;
+    background-color: transparent;
+    outline: 0;
+    position: relative;
+    font-family: 'helvetica neue', sans-serif;
+    color: #fffffb;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .menu {
@@ -149,6 +184,10 @@ header {
 #contact { background-color: #7db9de; }
 
 @media (min-width: 641px) {
+
+    body, .select select {
+        font-size: 16px;
+    }
 
     .menu ul {
         width: 90%;
