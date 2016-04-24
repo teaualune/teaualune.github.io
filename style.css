@@ -47,7 +47,7 @@ h4 {
 }
 
 header {
-    margin: 3em 0;
+    margin: 6em 0 3em;
 }
 
 .select {
@@ -154,12 +154,10 @@ header {
 .private { background-color: #a96360; }
 .react { background-color: #3a8fb7; }
 .angular { background-color: #f9bf45; }
+.php { background-color: #e16b8c; }
+.cuda { background-color: #7ba23f; }
 
 #about { background-color: #8f77b5; }
-
-#about header {
-    margin-top: 6em;
-}
 
 #about p {
     margin: 2em 0;
