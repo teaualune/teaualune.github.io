@@ -152,10 +152,11 @@ header {
 .game { background-color: #592c63; }
 .android { background-color: #516e41; }
 .private { background-color: #a96360; }
+.case { background-color: #838a2d; }
 .react { background-color: #3a8fb7; }
 .angular { background-color: #f9bf45; }
 .php { background-color: #e16b8c; }
-.cuda { background-color: #7ba23f; }
+.cuda, .matlab { background-color: #7ba23f; }
 
 #about { background-color: #8f77b5; }
 
