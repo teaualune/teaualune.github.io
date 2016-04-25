@@ -183,6 +183,11 @@ header {
 
 #works { background-color: #689881; }
 
+.work-highlights {
+    border-bottom: 1px solid #fffffb;
+    padding: 1em 0;
+}
+
 #talks { background-color: #91989f; }
 
 #contact { background-color: #7db9de; }
