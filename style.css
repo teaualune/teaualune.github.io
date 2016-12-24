@@ -157,6 +157,7 @@ header {
 .angular { background-color: #f9bf45; }
 .php { background-color: #e16b8c; }
 .cuda, .matlab { background-color: #7ba23f; }
+.support { background-color: #fffffb; color: #0f2540; }
 
 #about { background-color: #8f77b5; }
 
