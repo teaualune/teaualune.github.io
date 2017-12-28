@@ -140,6 +140,13 @@ header {
     border-radius: 5px;
 }
 
+.content li span.discontinued {
+    margin-left: 0;
+    padding-left: 0;
+    color: #535953;
+    font-weight: bold;
+}
+
 .web { background-color: #1e88a8; }
 .java { background-color: #0f2540; }
 .ntu { background-color: #c1328e; }
