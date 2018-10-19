@@ -158,7 +158,7 @@ header {
 .android { background-color: #516e41; }
 .private { background-color: #a96360; }
 .case { background-color: #838a2d; }
-.react, .vue { background-color: #3a8fb7; }
+.react, .vue, .flutter { background-color: #3a8fb7; }
 .angular { background-color: #f9bf45; }
 .golang, .kubernetes { background-color: #e16b8c; }
 .cuda, .matlab { background-color: #7ba23f; }
