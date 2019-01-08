@@ -1,7 +1,7 @@
 html {
     font-family: 'helvetica neue', sans-serif;
     font-weight: lighter;
-    color: #fffffb;
+    color: #fcfaf2;
     height: 100%;
     letter-spacing: 1px;
 }
@@ -53,7 +53,7 @@ header {
 .select {
     position: relative;
     display: inline-block;
-    border-bottom: 1px solid #fffffb;
+    border-bottom: 1px solid #0f2540;
 }
 
 .select::before {
@@ -79,7 +79,7 @@ header {
     outline: 0;
     position: relative;
     font-family: 'helvetica neue', sans-serif;
-    color: #fffffb;
+    color: #0f2540;
     font-size: 14px;
     line-height: 1.4;
     padding-right: 1em;
@@ -106,7 +106,7 @@ header {
 }
 
 .menu a {
-    color: #1c1c1c;
+    color: #0f2540;
     padding: 1em;
     display: block;
 }
@@ -127,17 +127,19 @@ header {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 2em 8px;
+    padding: 0 8px 6em;
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
 }
 
 .content li span {
-    margin: 5px 10px;
+    color: #fcfaf2;
+    margin: 0 10px;
     padding: .4em .8em;
     font-size: 80%;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .discontinued {
@@ -162,20 +164,24 @@ header {
 .angular { background-color: #f9bf45; }
 .golang, .kubernetes { background-color: #e16b8c; }
 .cuda, .matlab { background-color: #7ba23f; }
-.support { background-color: #fffffb; color: #0f2540; }
+.support { background-color: #66bab7; }
 
 #about { background-color: #8f77b5; }
+
+#about header img {
+    vertical-align: middle;
+    width: 128px;
+    height: 128px;
+}
 
 #about p {
     margin: 2em 0;
     line-height: 3;
 }
 
-#education { background-color: #b68e55; }
-
 #experience { background-color: #838a2d; }
 
-#skills { background-color: #66bab7; }
+#skills { background-color: #689881; }
 
 #skills li {
     margin: 1em 0;
@@ -187,21 +193,36 @@ header {
     font-size: 60%;
 }
 
-#works { background-color: #689881; }
+#works { background-color: #fcfaf2; color: #0f2540; }
 
-#works li {
+.works li {
     list-style: none;
     margin: 1.5em 0;
 }
 
+.works a {
+    color: #0f2540;
+}
+
+.works li a {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
 .work-highlights {
-    border-bottom: 1px solid #fffffb;
+    border-bottom: 1px solid #0f2540;
     padding: 1em 0;
 }
 
-#talks { background-color: #91989f; }
-
-#contact { background-color: #7db9de; }
+.work-generals li {
+    display: inline-block;
+    width: 100%;
+}
 
 @media (min-width: 641px) {
 
@@ -214,6 +235,22 @@ header {
     }
 
     .content section {
-        padding: 2em 10%;
+        padding: 2em 10% 8em;
+    }
+
+    .work-generals {
+        text-align: center;
+    }
+
+    .work-generals li {
+        width: 45%;
+        text-align: left;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1025px) {
+    .work-generals li {
+        width: 32%;
     }
 }
