@@ -1,6 +1,5 @@
 html {
     font-family: 'helvetica neue', sans-serif;
-    font-weight: lighter;
     color: #fcfaf2;
     height: 100%;
     letter-spacing: 1px;
@@ -42,7 +41,7 @@ h3 {
 
 h4 {
     margin: .5em 0;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 120%;
 }
 
