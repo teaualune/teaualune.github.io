@@ -141,7 +141,7 @@ header {
     white-space: nowrap;
 }
 
-.discontinued {
+.content li span.discontinued {
     color: #535953;
     font-weight: bold;
 }
