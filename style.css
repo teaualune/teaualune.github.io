@@ -1,149 +1,149 @@
 html {
-    font-family: 'helvetica neue', sans-serif;
-    color: #fcfaf2;
-    height: 100%;
-    letter-spacing: 1px;
+  font-family: 'helvetica neue', sans-serif;
+  color: #fcfaf2;
+  height: 100%;
+  letter-spacing: 1px;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    background-color: #0f2540;
-    font-size: 14px;
+  margin: 0;
+  height: 100%;
+  background-color: #0f2540;
+  font-size: 14px;
 }
 
 a {
-    text-decoration: none;
-    color: #fcfaf2;
-    font-weight: normal;
-    font-family: helvetica;
+  text-decoration: none;
+  color: #fcfaf2;
+  font-weight: normal;
+  font-family: helvetica;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 p {
-    margin: .5em 0;
-    line-height: 2;
+  margin: .5em 0;
+  line-height: 2;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
-    margin: 1em 0;
-    font-weight: normal;
-    font-size: 150%;
+  margin: 1em 0;
+  font-weight: normal;
+  font-size: 150%;
 }
 
 h4 {
-    margin: .5em 0;
-    font-weight: normal;
-    font-size: 120%;
+  margin: .5em 0;
+  font-weight: normal;
+  font-size: 120%;
 }
 
 header {
-    margin: 6em 0 3em;
+  margin: 6em 0 3em;
 }
 
 .select {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px solid #0f2540;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid #0f2540;
 }
 
 .select::before {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    content: "\25BE";
-    line-height: 1.4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "\25BE";
+  line-height: 1.4;
 }
 
 .select select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 0;
-    -webkit-border-radius: 0;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 0;
-    -moz-background-clip: padding;
-    border-radius: 0;
-    background-clip: padding-box;
-    background-color: transparent;
-    outline: 0;
-    position: relative;
-    font-family: 'helvetica neue', sans-serif;
-    color: #0f2540;
-    font-size: 14px;
-    line-height: 1.4;
-    padding-right: 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  background-color: transparent;
+  outline: 0;
+  position: relative;
+  font-family: 'helvetica neue', sans-serif;
+  color: #0f2540;
+  font-size: 14px;
+  line-height: 1.4;
+  padding-right: 1em;
 }
 
 .menu {
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    background-color: rgba(252, 250, 242, 0.8);
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  background-color: rgba(252, 250, 242, 0.8);
 }
 
 .menu ul {
-    list-style: none;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .menu li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .menu a {
-    color: #0f2540;
-    padding: 1em;
-    display: block;
+  color: #0f2540;
+  padding: 1em;
+  display: block;
 }
 
 .content {
-    height: 100%;
+  height: 100%;
 }
 
 .content li {
-    line-height: 2;
+  line-height: 2;
 }
 
 .content li a {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 .content section {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 0 8px 6em;
-    width: 100%;
-    min-height: 100%;
-    overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 8px 6em;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 .content li span {
-    color: #fcfaf2;
-    margin: 0 10px;
-    padding: .4em .8em;
-    font-size: 80%;
-    border-radius: 5px;
-    white-space: nowrap;
+  color: #fcfaf2;
+  margin: 0 10px;
+  padding: .4em .8em;
+  font-size: 80%;
+  border-radius: 5px;
+  white-space: nowrap;
 }
 
 .content li span.discontinued {
-    color: #535953;
-    font-weight: bold;
+  color: #535953;
+  font-weight: bold;
 }
 
 .web { background-color: #1e88a8; }
@@ -168,14 +168,14 @@ header {
 #about { background-color: #8f77b5; }
 
 #about header img {
-    vertical-align: middle;
-    width: 128px;
-    height: 128px;
+  vertical-align: middle;
+  width: 128px;
+  height: 128px;
 }
 
 #about p {
-    margin: 2em 0;
-    line-height: 3;
+  margin: 2em 0;
+  line-height: 3;
 }
 
 #experience { background-color: #838a2d; }
@@ -183,73 +183,74 @@ header {
 #skills { background-color: #689881; }
 
 #skills li {
-    margin: 1em 0;
-    font-size: 120%;
-    font-weight: normal;
+  margin: 1em 0;
+  font-size: 120%;
+  font-weight: normal;
 }
 
 #skills span {
-    font-size: 60%;
+  font-size: 60%;
 }
 
 #works { background-color: #fcfaf2; color: #0f2540; }
 
-.works li {
-    list-style: none;
-    margin: 1.5em 0;
+.work {
+  list-style: none;
+  margin: 1.5em 0;
 }
 
-.works a {
-    color: #0f2540;
+.work[hidden] {
+  display: none;
 }
 
-.works li a {
-    display: inline-block;
-    max-width: 100%;
-    margin: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    vertical-align: middle;
+.work a {
+  color: #0f2540;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 
 .work-highlights {
-    border-bottom: 1px solid #0f2540;
-    padding: 1em 0;
+  border-bottom: 1px solid #0f2540;
+  padding: 1em 0;
 }
 
 .work-generals li {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 @media (min-width: 641px) {
-
-    body, .select select {
-        font-size: 16px;
-    }
-
-    .menu ul {
-        width: 90%;
-    }
-
-    .content section {
-        padding: 2em 10% 8em;
-    }
-
-    .work-generals {
-        text-align: center;
-    }
-
-    .work-generals li {
-        width: 45%;
-        text-align: left;
-        vertical-align: top;
-    }
+  
+  body, .select select {
+    font-size: 16px;
+  }
+  
+  .menu ul {
+    width: 90%;
+  }
+  
+  .content section {
+    padding: 2em 10% 8em;
+  }
+  
+  .work-generals {
+    text-align: center;
+  }
+  
+  .work-generals .work {
+    width: 45%;
+    text-align: left;
+    vertical-align: top;
+  }
 }
 
 @media (min-width: 1025px) {
-    .work-generals li {
-        width: 32%;
-    }
+  .work-generals .work {
+    width: 32%;
+  }
 }
